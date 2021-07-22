@@ -19,7 +19,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-google_api_key = "AIzaSyCxBTCsn2G6dEV_1VjyOvMmgGsB1eqgQxg"
+google_api_key = "put key here"
 
 def load_database(latitue, longitude):
     base = "https://maps.googleapis.com/maps/api/geocode/json?"
