@@ -1,0 +1,19 @@
+# Envs
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# SQLite DBs & output
+raw_meteorite.sqlite
+location_data.sqlite
+dw_meteorite.sqlite
+mmap.json
+
+# Jupyter
+.ipynb_checkpoints/
